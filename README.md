@@ -30,6 +30,6 @@ http://127.0.0.1:5000/api/v1.0/predict?num1=3.5&num2=3
 # Uruchomienie w Dockerze
 
 ```bash
-docker build -t decision-api .
-docker run -p 5000:5000 decision-api
+docker build -t api-ml .
+docker run -p 5000:5000 api-ml
 ```
