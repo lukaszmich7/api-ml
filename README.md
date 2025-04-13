@@ -6,7 +6,7 @@ Aplikacja API w Flasku, która przyjmuje dwie liczby i zwraca predykcję na pods
 
 - **GET** `/api/v1.0/predict`
 
-# Parametry (w URL):
+# Parametry w URL:
 
 - `num1` – pierwsza liczba
 - `num2` – druga liczba
@@ -17,7 +17,6 @@ http://127.0.0.1:5000/api/v1.0/predict?num1=3.5&num2=3
 
 # Przykład odpowiedzi
 
-#### Przykładowa odpowiedź:
 ```json
 {
   "features": {
